@@ -82,9 +82,9 @@ iframe {
   margin: auto;
   padding: 3rem;
   width: auto;
-  text-align: center;
+  text-align: right;
   border: 10px dotted #FFFFFF;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .profile-img { 
