@@ -73,6 +73,8 @@ iframe {
 .banner {
   min-height: 50vh;
   padding: 5rem 1rem;
+  background-image:url('../Cloud-Wallpaper-Hd-49-Group-Wallpapers.jpg');
+  background-position: center;
 }
 
 .profile-img { 
