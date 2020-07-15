@@ -75,6 +75,7 @@ iframe {
   padding: 5rem 1rem;
   background-image:url('../Cloud-Wallpaper-Hd-49-Group-Wallpapers.jpg');
   background-position: center;
+  text-align: center;
 }
 
 .banner-text {
@@ -82,7 +83,7 @@ iframe {
   margin: auto;
   padding: 3rem;
   width: auto;
-  text-align: right;
+  text-align: center;
   border: 10px dotted #FFFFFF;
   font-size: 5rem;
 }
