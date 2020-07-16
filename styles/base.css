@@ -106,3 +106,24 @@ iframe {
 .spare-time {
   background: #fff19d;
 }
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn-1 {
+  background: #d0b6ff;
+  color: #FFFFFF;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: .25rem;
+  border: 1px solid white;
+  transition: border .3s ease;
+}
+
+.btn-1:hover {
+  border: 15px solid #d0b6ff;
+}
