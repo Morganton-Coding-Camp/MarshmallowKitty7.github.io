@@ -100,9 +100,11 @@ iframe {
 .favorite-animal {
   background: #ff9dab;
 }
+
 .favorite-anime {
   background: #ffc09d;
 }
+
 .spare-time {
   background: #fff19d;
 }
@@ -110,13 +112,13 @@ iframe {
 .footer {
   text-align: center;
   padding: 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .btn-1 {
   background: #d0b6ff;
   color: #FFFFFF;
-  padding: 1rem;
+  padding: 3rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   border-radius: .25rem;
