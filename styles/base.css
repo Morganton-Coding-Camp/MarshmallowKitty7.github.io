@@ -118,7 +118,7 @@ iframe {
   color: #FFFFFF;
   padding: 1rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   border-radius: .25rem;
   border: 1px solid white;
   transition: border .3s ease;
@@ -126,4 +126,9 @@ iframe {
 
 .btn-1:hover {
   border: 10px solid #FFFFFF;
+  .pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
 }
