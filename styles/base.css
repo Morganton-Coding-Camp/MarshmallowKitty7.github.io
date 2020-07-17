@@ -116,13 +116,12 @@ iframe {
 }
 
 .btn-1 {
-  background: #d0b6ff;
+  /* background: #d0b6ff; */
+  background: transparent;
   color: #FFFFFF;
   padding: 2.3rem;
-  display:inline-block;
   margin: 1rem auto;
   text-decoration: none;
-  /*box-shadow: 0 0 0 2em rgba(#fff,0);*/
   text-transform: uppercase;
   letter-spacing: 3px;
   border-radius: .17rem;
@@ -136,6 +135,5 @@ iframe {
 
 .btn-1:hover {
   animation: pulse 1s;
-  /* border: 10px solid #FFFFFF; */
-  box-shadow: 0 0 0 2em rgba(#fff,0);
+  box-shadow: 0 0 0 2em rgba(255,255,255,0);
 }
