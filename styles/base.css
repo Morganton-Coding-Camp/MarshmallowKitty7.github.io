@@ -122,11 +122,14 @@ iframe {
   display:inline-block;
   margin: 1rem auto;
   text-decoration: none;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
   text-transform: uppercase;
   letter-spacing: 3px;
   border-radius: .17rem;
   border: 1px solid white;
   transition: border .3s ease;
+  @keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #9f6aff; }
 }
 
 .btn-1:hover {
@@ -135,8 +138,4 @@ iframe {
   border: 10px solid #FFFFFF;
 .pulse:hover, 
   box-shadow: 0 0 0 2em rgba(#fff,0);
-}
-  
-  @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
 }
