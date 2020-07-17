@@ -128,12 +128,10 @@ iframe {
 
 .btn-1:hover {
   border: 10px solid #FFFFFF;
-  .pulse:hover, 
+}
+
+.pulse:hover, 
 .pulse:focus {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(#fff,0);
 }
-
-.btn-1 {
-  margin-right: 30px
-  }
