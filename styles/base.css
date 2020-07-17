@@ -116,8 +116,7 @@ iframe {
 }
 
 .btn-1 {
-  /* background: #d0b6ff; */
-  background: transparent;
+  background: #d0b6ff;
   color: #FFFFFF;
   display: inline-block;
   padding: 2.3rem;
