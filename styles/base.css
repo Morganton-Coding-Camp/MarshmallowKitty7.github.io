@@ -119,6 +119,9 @@ iframe {
   background: #d0b6ff;
   color: #FFFFFF;
   padding: 2.3rem;
+  display:inline-block;
+  margin: 1rem auto;
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
   border-radius: .17rem;
@@ -127,11 +130,13 @@ iframe {
 }
 
 .btn-1:hover {
-  border: 10px solid #FFFFFF;
-}
-
-.pulse:hover, 
-.pulse:focus {
+  .pulse:focus {
   animation: pulse 1s;
+  border: 10px solid #FFFFFF;
+.pulse:hover, 
   box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+  
+  @keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
 }
